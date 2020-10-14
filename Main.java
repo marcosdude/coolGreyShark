@@ -9,9 +9,17 @@ public class Main
   int sharkLength = 15;
   String color = "grey";
   String sharkDiet = "vegan";
-  
-  
-  
+  boolean sharkSeesFish = true
+  boolean sharkSeesNoFish = true
+
+    if ()
+     {
+       System.out.println();
+     }
+     else if ()
+     {
+        System.out.println();
+     }
  
   }
 
