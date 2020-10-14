@@ -10,7 +10,6 @@ public class Main
   String color = "grey";
   String sharkDiet = "vegan";
   boolean sharkSeesFish = true
-  boolean sharkSeesNoFish = true
 
     if ()
      {
