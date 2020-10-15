@@ -1,25 +1,26 @@
-public class Main 
-{
+import java.util.Scanner;
 
-  public static void main(String[] args) 
-  {
-  String sharkName = "Advan";
-  int sharkWidth = 4;
-  int sharkHeight = 4;
-  int sharkLength = 15;
-  String color = "grey";
-  String sharkDiet = "vegan";
-  boolean sharkSeesFish = true
+public class Main {
 
-    if ()
-     {
-       System.out.println();
-     }
-     else if ()
-     {
-        System.out.println();
-     }
- 
+public static void main(String[] args){
+    Scanner scan = new Scanner(System.in);
+
+    System.out.println("What is the current wind speed in MPH?");
+    int wind = scan.hashCode();
+
+    String sharkName = "Advan";
+    int sharkWidth = 4;
+    int sharkHeight = 4;
+    int sharkLength = 15;
+    String color = "grey";
+    String sharkDiet = "vegan";
+    boolean sharkSeesFish = true;
+
+
+    if (wind < 7) {
+      System.out.println("Advan will swim 10 feet underwater because the surface won't be 'choppy'");
+    } else if (wind > 7) {
+      System.out.println("Advan will swim 30 feet underwater because the surface will be 'choppy'");
+    }
   }
-
 }
